@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://wallpapercave.com/wp/wp2655442.jpg);
+}
+body backgroun-image {
+    display: flex;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 30px;
+    right: 100px;
+    color: rgb(255, 255, 255);
+    cursor : pointer
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    
+}
+
+.bar {
+    background-color: rgb(255, 0, 0);
+    width: 350px;
+    height: 10px;
+    position: relative;
+    top: -5px;
+    box-shadow: 5px 4px 5px 0px rgba(0, 0, 0, 0.38);
+}
+
+.bar2 {
+    height: 10px;
+    width: 80%;
+    background-color: rgb(203, 214, 221);
+}
+
+
+.frontcenter {
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.frontcenter h1 {
+    color: aliceblue;
+}
+
+.N2 {
+    margin-bottom: 15px;
+    font-size: 10px;
+    color: red;
+}
+
+.roll {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 5px;
+    font-size: 10px;
+    width: 100%;
+}
+
+.roll p {
+    color: rgb(255, 0, 0);
+    font-weight: 100;
+}
+
+.Button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.Button input[type='button']{
+    width: 80px;
+    height: 30px;
+    padding: auto;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: aqua;
+    background: lightskyblue;
+    cursor : pointer
+  }
+
+.icon {
+    display: flex;
+    flex-flow:row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+}
+
+img {
+    width: 45px;
+}
+
+.underground {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    top: 520px;
+}
+
+.underground p {
+    color: aliceblue;
+}
+
+
+.underground hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
